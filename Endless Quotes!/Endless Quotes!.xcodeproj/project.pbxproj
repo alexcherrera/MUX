@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88302DF31720689E002BE0B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88302DF21720689E002BE0B5 /* UIKit.framework */; };
+		88302DF51720689E002BE0B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88302DF41720689E002BE0B5 /* Foundation.framework */; };
+		88302DF71720689E002BE0B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88302DF61720689E002BE0B5 /* CoreGraphics.framework */; };
+		88302DFD1720689E002BE0B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88302DFB1720689E002BE0B5 /* InfoPlist.strings */; };
+		88302DFF1720689E002BE0B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302DFE1720689E002BE0B5 /* main.m */; };
+		88302E031720689E002BE0B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E021720689E002BE0B5 /* AppDelegate.m */; };
+		88302E051720689E002BE0B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E041720689E002BE0B5 /* Default.png */; };
+		88302E071720689E002BE0B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E061720689E002BE0B5 /* Default@2x.png */; };
+		88302E091720689E002BE0B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E081720689E002BE0B5 /* Default-568h@2x.png */; };
+		88302E0F1720689E002BE0B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E0E1720689E002BE0B5 /* ViewController.m */; };
+		88302E161720691E002BE0B5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88302E151720691E002BE0B5 /* MainStoryboard.storyboard */; };
+		88302E1917206D25002BE0B5 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E1817206D25002BE0B5 /* SignInViewController.m */; };
+		88302E1C17206D39002BE0B5 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E1B17206D39002BE0B5 /* SignUpViewController.m */; };
+		88302E1F172071FC002BE0B5 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E1E172071FC002BE0B5 /* ProfileViewController.m */; };
+		88302E2217207232002BE0B5 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E2117207232002BE0B5 /* FavoritesViewController.m */; };
+		88302E2517207243002BE0B5 /* FindQuotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E2417207243002BE0B5 /* FindQuotesViewController.m */; };
+		88302E2817207250002BE0B5 /* CreateQuotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88302E2717207250002BE0B5 /* CreateQuotesViewController.m */; };
+		88302E2D1720D4BE002BE0B5 /* CreateQuote.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E291720D4BD002BE0B5 /* CreateQuote.png */; };
+		88302E2E1720D4BE002BE0B5 /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E2A1720D4BD002BE0B5 /* Favorites.png */; };
+		88302E2F1720D4BE002BE0B5 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E2B1720D4BE002BE0B5 /* Profile.png */; };
+		88302E301720D4BE002BE0B5 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E2C1720D4BE002BE0B5 /* Search.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88302DEF1720689E002BE0B5 /* Endless Quotes!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Quotes!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88302DF21720689E002BE0B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88302DF41720689E002BE0B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88302DF61720689E002BE0B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88302DFA1720689E002BE0B5 /* Endless Quotes!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Endless Quotes!-Info.plist"; sourceTree = "<group>"; };
+		88302DFC1720689E002BE0B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88302DFE1720689E002BE0B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88302E001720689E002BE0B5 /* Endless Quotes!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Endless Quotes!-Prefix.pch"; sourceTree = "<group>"; };
+		88302E011720689E002BE0B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88302E021720689E002BE0B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88302E041720689E002BE0B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		88302E061720689E002BE0B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88302E081720689E002BE0B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88302E0D1720689E002BE0B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88302E0E1720689E002BE0B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88302E151720691E002BE0B5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		88302E1717206D25002BE0B5 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		88302E1817206D25002BE0B5 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		88302E1A17206D39002BE0B5 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		88302E1B17206D39002BE0B5 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		88302E1D172071FC002BE0B5 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		88302E1E172071FC002BE0B5 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		88302E2017207232002BE0B5 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		88302E2117207232002BE0B5 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		88302E2317207243002BE0B5 /* FindQuotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindQuotesViewController.h; sourceTree = "<group>"; };
+		88302E2417207243002BE0B5 /* FindQuotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindQuotesViewController.m; sourceTree = "<group>"; };
+		88302E2617207250002BE0B5 /* CreateQuotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateQuotesViewController.h; sourceTree = "<group>"; };
+		88302E2717207250002BE0B5 /* CreateQuotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateQuotesViewController.m; sourceTree = "<group>"; };
+		88302E291720D4BD002BE0B5 /* CreateQuote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateQuote.png; sourceTree = "<group>"; };
+		88302E2A1720D4BD002BE0B5 /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites.png; sourceTree = "<group>"; };
+		88302E2B1720D4BE002BE0B5 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		88302E2C1720D4BE002BE0B5 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88302DEC1720689E002BE0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88302DF31720689E002BE0B5 /* UIKit.framework in Frameworks */,
+				88302DF51720689E002BE0B5 /* Foundation.framework in Frameworks */,
+				88302DF71720689E002BE0B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88302DE61720689E002BE0B5 = {
+			isa = PBXGroup;
+			children = (
+				88302DF81720689E002BE0B5 /* Endless Quotes! */,
+				88302DF11720689E002BE0B5 /* Frameworks */,
+				88302DF01720689E002BE0B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88302DF01720689E002BE0B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88302DEF1720689E002BE0B5 /* Endless Quotes!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88302DF11720689E002BE0B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88302DF21720689E002BE0B5 /* UIKit.framework */,
+				88302DF41720689E002BE0B5 /* Foundation.framework */,
+				88302DF61720689E002BE0B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88302DF81720689E002BE0B5 /* Endless Quotes! */ = {
+			isa = PBXGroup;
+			children = (
+				88302E151720691E002BE0B5 /* MainStoryboard.storyboard */,
+				88302E291720D4BD002BE0B5 /* CreateQuote.png */,
+				88302E2A1720D4BD002BE0B5 /* Favorites.png */,
+				88302E2B1720D4BE002BE0B5 /* Profile.png */,
+				88302E2C1720D4BE002BE0B5 /* Search.png */,
+				88302E011720689E002BE0B5 /* AppDelegate.h */,
+				88302E021720689E002BE0B5 /* AppDelegate.m */,
+				88302E0D1720689E002BE0B5 /* ViewController.h */,
+				88302E0E1720689E002BE0B5 /* ViewController.m */,
+				88302E1717206D25002BE0B5 /* SignInViewController.h */,
+				88302E1817206D25002BE0B5 /* SignInViewController.m */,
+				88302E1A17206D39002BE0B5 /* SignUpViewController.h */,
+				88302E1B17206D39002BE0B5 /* SignUpViewController.m */,
+				88302E1D172071FC002BE0B5 /* ProfileViewController.h */,
+				88302E1E172071FC002BE0B5 /* ProfileViewController.m */,
+				88302E2017207232002BE0B5 /* FavoritesViewController.h */,
+				88302E2117207232002BE0B5 /* FavoritesViewController.m */,
+				88302E2317207243002BE0B5 /* FindQuotesViewController.h */,
+				88302E2417207243002BE0B5 /* FindQuotesViewController.m */,
+				88302E2617207250002BE0B5 /* CreateQuotesViewController.h */,
+				88302E2717207250002BE0B5 /* CreateQuotesViewController.m */,
+				88302DF91720689E002BE0B5 /* Supporting Files */,
+			);
+			path = "Endless Quotes!";
+			sourceTree = "<group>";
+		};
+		88302DF91720689E002BE0B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88302DFA1720689E002BE0B5 /* Endless Quotes!-Info.plist */,
+				88302DFB1720689E002BE0B5 /* InfoPlist.strings */,
+				88302DFE1720689E002BE0B5 /* main.m */,
+				88302E001720689E002BE0B5 /* Endless Quotes!-Prefix.pch */,
+				88302E041720689E002BE0B5 /* Default.png */,
+				88302E061720689E002BE0B5 /* Default@2x.png */,
+				88302E081720689E002BE0B5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88302DEE1720689E002BE0B5 /* Endless Quotes! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88302E121720689E002BE0B5 /* Build configuration list for PBXNativeTarget "Endless Quotes!" */;
+			buildPhases = (
+				88302DEB1720689E002BE0B5 /* Sources */,
+				88302DEC1720689E002BE0B5 /* Frameworks */,
+				88302DED1720689E002BE0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Endless Quotes!";
+			productName = "Endless Quotes!";
+			productReference = 88302DEF1720689E002BE0B5 /* Endless Quotes!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88302DE71720689E002BE0B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander Herrera";
+			};
+			buildConfigurationList = 88302DEA1720689E002BE0B5 /* Build configuration list for PBXProject "Endless Quotes!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88302DE61720689E002BE0B5;
+			productRefGroup = 88302DF01720689E002BE0B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88302DEE1720689E002BE0B5 /* Endless Quotes! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88302DED1720689E002BE0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88302DFD1720689E002BE0B5 /* InfoPlist.strings in Resources */,
+				88302E051720689E002BE0B5 /* Default.png in Resources */,
+				88302E071720689E002BE0B5 /* Default@2x.png in Resources */,
+				88302E091720689E002BE0B5 /* Default-568h@2x.png in Resources */,
+				88302E161720691E002BE0B5 /* MainStoryboard.storyboard in Resources */,
+				88302E2D1720D4BE002BE0B5 /* CreateQuote.png in Resources */,
+				88302E2E1720D4BE002BE0B5 /* Favorites.png in Resources */,
+				88302E2F1720D4BE002BE0B5 /* Profile.png in Resources */,
+				88302E301720D4BE002BE0B5 /* Search.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88302DEB1720689E002BE0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88302DFF1720689E002BE0B5 /* main.m in Sources */,
+				88302E031720689E002BE0B5 /* AppDelegate.m in Sources */,
+				88302E0F1720689E002BE0B5 /* ViewController.m in Sources */,
+				88302E1917206D25002BE0B5 /* SignInViewController.m in Sources */,
+				88302E1C17206D39002BE0B5 /* SignUpViewController.m in Sources */,
+				88302E1F172071FC002BE0B5 /* ProfileViewController.m in Sources */,
+				88302E2217207232002BE0B5 /* FavoritesViewController.m in Sources */,
+				88302E2517207243002BE0B5 /* FindQuotesViewController.m in Sources */,
+				88302E2817207250002BE0B5 /* CreateQuotesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88302DFB1720689E002BE0B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88302DFC1720689E002BE0B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88302E101720689E002BE0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88302E111720689E002BE0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88302E131720689E002BE0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Endless Quotes!/Endless Quotes!-Prefix.pch";
+				INFOPLIST_FILE = "Endless Quotes!/Endless Quotes!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88302E141720689E002BE0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Endless Quotes!/Endless Quotes!-Prefix.pch";
+				INFOPLIST_FILE = "Endless Quotes!/Endless Quotes!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88302DEA1720689E002BE0B5 /* Build configuration list for PBXProject "Endless Quotes!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88302E101720689E002BE0B5 /* Debug */,
+				88302E111720689E002BE0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88302E121720689E002BE0B5 /* Build configuration list for PBXNativeTarget "Endless Quotes!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88302E131720689E002BE0B5 /* Debug */,
+				88302E141720689E002BE0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88302DE71720689E002BE0B5 /* Project object */;
+}
