@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8824B07717218A7400FC93E4 /* NewQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824B07617218A7400FC93E4 /* NewQuoteViewController.m */; };
-		8824B07A17218A8700FC93E4 /* SurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824B07917218A8700FC93E4 /* SurveyViewController.m */; };
-		8824B07C17218F2D00FC93E4 /* Survey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8824B07B17218F2D00FC93E4 /* Survey.png */; };
 		88302DF31720689E002BE0B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88302DF21720689E002BE0B5 /* UIKit.framework */; };
 		88302DF51720689E002BE0B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88302DF41720689E002BE0B5 /* Foundation.framework */; };
 		88302DF71720689E002BE0B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88302DF61720689E002BE0B5 /* CoreGraphics.framework */; };
@@ -31,17 +28,9 @@
 		88302E2E1720D4BE002BE0B5 /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E2A1720D4BD002BE0B5 /* Favorites.png */; };
 		88302E2F1720D4BE002BE0B5 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E2B1720D4BE002BE0B5 /* Profile.png */; };
 		88302E301720D4BE002BE0B5 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 88302E2C1720D4BE002BE0B5 /* Search.png */; };
-		88CDBF7717287B410078B623 /* iPhone5_Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CDBF7617287B410078B623 /* iPhone5_Retina.png */; };
-		88CDBF7B1729B07B0078B623 /* iPhone5_SignPgs.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CDBF7A1729B07B0078B623 /* iPhone5_SignPgs.png */; };
-		88CDBF7D1729B3F90078B623 /* iPhone5_Views.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CDBF7C1729B3F80078B623 /* iPhone5_Views.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8824B07517218A7400FC93E4 /* NewQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewQuoteViewController.h; sourceTree = "<group>"; };
-		8824B07617218A7400FC93E4 /* NewQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewQuoteViewController.m; sourceTree = "<group>"; };
-		8824B07817218A8700FC93E4 /* SurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyViewController.h; sourceTree = "<group>"; };
-		8824B07917218A8700FC93E4 /* SurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyViewController.m; sourceTree = "<group>"; };
-		8824B07B17218F2D00FC93E4 /* Survey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Survey.png; sourceTree = "<group>"; };
 		88302DEF1720689E002BE0B5 /* Endless Quotes!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Endless Quotes!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88302DF21720689E002BE0B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88302DF41720689E002BE0B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,9 +63,6 @@
 		88302E2A1720D4BD002BE0B5 /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Favorites.png; sourceTree = "<group>"; };
 		88302E2B1720D4BE002BE0B5 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
 		88302E2C1720D4BE002BE0B5 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
-		88CDBF7617287B410078B623 /* iPhone5_Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5_Retina.png; sourceTree = "<group>"; };
-		88CDBF7A1729B07B0078B623 /* iPhone5_SignPgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5_SignPgs.png; sourceTree = "<group>"; };
-		88CDBF7C1729B3F80078B623 /* iPhone5_Views.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5_Views.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				88302E151720691E002BE0B5 /* MainStoryboard.storyboard */,
-				88CDBF7C1729B3F80078B623 /* iPhone5_Views.png */,
-				88CDBF7A1729B07B0078B623 /* iPhone5_SignPgs.png */,
-				88CDBF7617287B410078B623 /* iPhone5_Retina.png */,
-				8824B07B17218F2D00FC93E4 /* Survey.png */,
 				88302E291720D4BD002BE0B5 /* CreateQuote.png */,
 				88302E2A1720D4BD002BE0B5 /* Favorites.png */,
 				88302E2B1720D4BE002BE0B5 /* Profile.png */,
@@ -148,10 +130,6 @@
 				88302E2417207243002BE0B5 /* FindQuotesViewController.m */,
 				88302E2617207250002BE0B5 /* CreateQuotesViewController.h */,
 				88302E2717207250002BE0B5 /* CreateQuotesViewController.m */,
-				8824B07517218A7400FC93E4 /* NewQuoteViewController.h */,
-				8824B07617218A7400FC93E4 /* NewQuoteViewController.m */,
-				8824B07817218A8700FC93E4 /* SurveyViewController.h */,
-				8824B07917218A8700FC93E4 /* SurveyViewController.m */,
 				88302DF91720689E002BE0B5 /* Supporting Files */,
 			);
 			path = "Endless Quotes!";
@@ -231,10 +209,6 @@
 				88302E2E1720D4BE002BE0B5 /* Favorites.png in Resources */,
 				88302E2F1720D4BE002BE0B5 /* Profile.png in Resources */,
 				88302E301720D4BE002BE0B5 /* Search.png in Resources */,
-				8824B07C17218F2D00FC93E4 /* Survey.png in Resources */,
-				88CDBF7717287B410078B623 /* iPhone5_Retina.png in Resources */,
-				88CDBF7B1729B07B0078B623 /* iPhone5_SignPgs.png in Resources */,
-				88CDBF7D1729B3F90078B623 /* iPhone5_Views.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +228,6 @@
 				88302E2217207232002BE0B5 /* FavoritesViewController.m in Sources */,
 				88302E2517207243002BE0B5 /* FindQuotesViewController.m in Sources */,
 				88302E2817207250002BE0B5 /* CreateQuotesViewController.m in Sources */,
-				8824B07717218A7400FC93E4 /* NewQuoteViewController.m in Sources */,
-				8824B07A17218A8700FC93E4 /* SurveyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
